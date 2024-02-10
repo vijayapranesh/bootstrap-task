@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+
+
+.layout-container{
+    height: 100vh;
+
+}
+
+.header-container{
+    height: 10%;
+    background-color: #2F3D46;
+    display: flex;
+
+}
+
+.logo{
+    width: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+}
+.body-container{
+    height: 90%;
+    background-color: #CAD2C5;
+    display: flex;
+
+}
+
+.body-left{
+    width: 30%;
+ padding: 4em;
+}
+
+.sidebar{
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #353535;
+}
+
+.body-right{
+    width: 70%;
+    display: flex;
+    padding: 4em;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    width: 23%;
+    height: 120px;
+    border-radius: 10px;
+    background-color: #353535;
+   
+}
+
+.bottombar{
+    height: 130px;
+    border-radius: 10px;
+    background-color: #353535;
+    
+   
+}
+.myInput{
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+  background-color: #353535;
+  font-size: 24px;
+  padding: 0 lem;
+  
+}
