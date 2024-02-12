@@ -7,9 +7,11 @@
 .header{
     display: flex;
     justify-content:center ;
-    align-items: center;
+    text-align: center;
     flex-direction: column;
 }
+
+
 
 .box-1{
     background-color: rgb(9, 235, 235);
@@ -17,10 +19,14 @@
     padding: 20px;
 }
 
-.button{
+.button button{
     align-items: stretch;
-
+    margin: 10px;
+   
 }
 
 
+img{
+    width: 100%;
+}
 
